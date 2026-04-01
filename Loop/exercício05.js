@@ -1,6 +1,5 @@
 let notas = [5,7,8,9,10];
 let aprovados = 0;
-let maiorNota = 0;
 let reprovados = 0;
 let soma = 0;
 
@@ -19,8 +18,8 @@ if(notas[i] <7){
    reprovados++;
    console.log("Reprovados:" + reprovados);
 
-let maiorValor = Math.max(...notas);
-console.log(" Maior valor: "+ maiorValor);
+let maiorNota = Math.max(...notas);
+console.log(" Maior Nota: "+ maiorNota);
 
 }
 }

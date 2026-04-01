@@ -1,5 +1,4 @@
 let temperatura = [80, 90, 100];
-let contar = 0;
 let temperaturaAcimaDaMedia = 0;
 let soma = 0;
 

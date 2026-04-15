@@ -1,5 +1,8 @@
 const prompt = require('prompt-sync')();
-const prazoVariados = [];
+let zonaVermelha = 'Urgente',
+  zonaLaranja = 'Alta',
+  zonaAmarela = 'Média',
+  zonaVerde = 'Baixa';
 const quantidadePerdida = [];
 const setor = [];
 const produto = [];
@@ -17,41 +20,46 @@ while (opcao !== 5) {
 
   // CADASTRO DO USUARIO
   if (opcao === '1') {
-    const setor = String(prompt('Digite o nome do setor: '));
-    const produto = String(prompt('Digite o nome do produto: '));
-    const quantidadePerdida = Number(prompt('Digite a quantidade: '));
-    const prazoVariados = Number(prompt('Digite o prazo: '));
-    
-    console.log('Busca efetuada com sucesso!');
-  }
+    const produtos = String(prompt('Digite o nome do produto: '));
+    console.log('Produto Cadastrado');
+    console.log(`PED${produto.length}`);
+    produto.push(produtos);
 
+    // LISTAR PEDIDOS
+  }if (opcao === '2') {
+    console.log(' Lista de pedido');
 
-  if (opcao === '2') {
-    const produto = String(prompt('Digite o nome do produto: '));
-    console.log('Busca efetuada com sucesso!');
-  } for (let i = 0; i < produto.length; i++) {
-        console.log(i);
-  }
+    if (produto.length === 0) {
+      console.log('Nenhum produto foi cadastrado');
+    } else {
+      for (let i = 0; i < produto.length; i++) {
+        console.log(`Ped${i} | produto: ${produto[i]}`);
+      }
 
+      // RESUMO GERENCIAL
+    }
+    if (opcao === '3'){
+      console.log('\n--Resumo gerencial--');
 
-  if(opcao === '3'){
- if(prazoVariados <=2){
-  console.log('Prioridade Urgente');
-  }else if( prazoVariados <=5 ){
-    console.log('Prioridade Alta');
-  }else if ( prazoVariados <=10 ){
-    console.log('Prioridade Média');
-  }else{
-    console.log('Prioridade Baixa');
-             
+      while(true) {
+        let diasPrioridade = parseInt(prompt('Prazo(Dias): '));
+        if (diasPrioridade < 0) {
+          break;
+        }
+        if (diasPrioridade <= 2){
+          console.log('Prioridade: ', zonaVermelha);
+        } else if (diasPrioridade <= 5){
+          console.log('Prioridade: ', zonaLaranja);
+        } else if (diasPrioridade <= 10){
+          console.log('Prioridade: ', zonaAmarela);
+        } else{
+          console.log('Prioridade: ', zonaVerde);
+        }
+        break;
+      }
     }
   }
-
-
- // opão sair
-  else if (opcao === '5') {
-    console.log('Saindo...');
-    break;
+  if (opcao === '5') {
+    console.log('Saindo');
   }
-
 }

@@ -8,7 +8,7 @@ Possuo experiência sólida na área financeira e administrativa, atuando com co
 Atualmente, estou em formação em Desenvolvimento de Sistemas, ampliando minhas competências em tecnologia e análise de dados.
 Tenho um empreendimento familiar e compartilho um pouco no instagram "[Doces e Gelato] (https://www.instagram.com/docesgelatoonline/)" e canal no youtube "[Nina Vieira] (https://www.youtube.com/@ninaVieira127/)
 
-<p<p align="left">
+<p align="left">
 <a href="https://www.youtube.com/@ninaVieira127">
 <img 
             alt="YouTube subscribers" 

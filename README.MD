@@ -15,6 +15,13 @@ Tenho um empreendimento familiar e compartilho um pouco no instagram "[Doces e G
             title="Inscreva-se no meu canal" 
             src="https://img.shields.io/badge/YouTube-Inscreva--se-E05D44?style=for-the-badge&logo=youtube&logoColor=white"
         />
+         </a>
+    <a href="https://www.youtube.com/@ninaVieira127">
+        <img 
+            alt="youtube views" 
+            title="Vizualizações no YouTube" 
+            src="https://custom-icon-badges.demolab.com/youtube/channel/views/UC9CV3vcwVSxaiTkegWTX8yw?color=%23E1AD0E&logo=eye&logoColor=white&style=for-the-badge&labelColor=C79600"
+        />
 </a>
 
     <a href="https://github.com/vieiranildes?tab=repositories&sort=stargazers">

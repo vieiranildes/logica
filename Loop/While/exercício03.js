@@ -16,31 +16,30 @@ while (opcao !== '5') {
   opcao = prompt('Escolha uma opção: ');
 
   // CONSULTAR SALDO
-  if (opcao === '1') {
+  if (opcao == '1') {
     const saldo = Number(prompt('Consulta de saldo'));
     saldoInicial += saldo;
     console.log('Saldo:', saldoInicial);
     
   } 
-  else if (opcao === '2') {
+  else if (opcao =='2') {
     const depositar = Number(prompt('Digite o valor de depósito: R$ '));
     console.log('Valor Registrado');
     deposito.push(depositar);
 
-  }if (depositar >0 ) {
-    const valor = saldoInicial + depositar
+  }if (deposito >0 ) {
+    const valor = saldoInicial + deposito
     console.log(valor);
   }
-  else if( opcao ==='3'){
+  else if( opcao =='3'){
     const valor = Number(prompt('Valor do saque: R$ '));
-    if(valor > saldoInicial){
-      console.log('Saldo insuficiente para saque';)
-    }else{
-      saldoInicial -= valor;
-      extrato.push(`Depósito: +R$ ${valor.toFixed(2)}`);
+    if(valor > saldo){
+      console.log('Saldo insuficiente para saque');
+    }else if(valor <= depositar){
+      console.log('Saque Realizado com Sucesso R$:' , valor);
+        }
     }
-    }
-  }
+  
 
 
   
@@ -52,4 +51,5 @@ while (opcao !== '5') {
     console.log('Saindo');
   }
 
+}
 

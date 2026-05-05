@@ -21,9 +21,6 @@ function bonus(total){
 
 
 
-
-
-
 let nome = String(prompt('Qual seu nome?: '));
 let horasTrabalhadas = Number(prompt('Quantas horas trabalhadas?: '));
 let valorHora = Number(prompt('Qual valor da Hora?: '));

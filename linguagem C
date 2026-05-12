@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+    char nome[50];
+    int idade;
+    float altura;
+    
+printf("Escreva seu nome: ");
+scanf("%s", &nome);
+
+
+printf("\nQual sua idade: ");
+scanf("%d", &idade);
+
+
+printf("\nQual sua altura: ");
+scanf("%f", &altura);
+return 0;
+}

@@ -3,8 +3,9 @@
 ** `Desenvolvimento de Sistemas`**
 ** `MBA em Análise de Dados`**
 *Teste aprsentação, modo italico*
--Lista01
--Lista02
+**Cursos**
+-Power Bi
+- Excel-
 
 Me chamo Nivalnildes Vieira, tenho 28 anos, sou natural de Pojuca/Ba. Sou profissional formada em Administração, com especialização em Controladoria, Finanças Corporativas e Análise de Dados.
 Possuo experiência sólida na área financeira e administrativa, atuando com controle de processos, análise de dados e suporte à tomada de decisão estratégica.

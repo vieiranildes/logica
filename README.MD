@@ -8,7 +8,7 @@
 
 **Cursos**
 
--Power Bi
+- Power Bi
 - Excel
 
 Me chamo Nivalnildes Vieira, tenho 28 anos, sou natural de Pojuca/Ba. Sou profissional formada em Administração, com especialização em Controladoria, Finanças Corporativas e Análise de Dados.

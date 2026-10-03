@@ -1,8 +1,8 @@
 # 👩‍⚖️ Nivalnildes Vieira
 
-** `Desenvolvimento de Sistemas`**
+**Desenvolvimento de Sistemas**
 
-** `MBA em Análise de Dados`**
+**MBA em Análise de Dados**
 
 *Teste aprsentação, modo italico*
 
